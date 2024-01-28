@@ -20,9 +20,9 @@ class Program
         Stalker stalker_2 = new Stalker("Игорь Ипучий", 145, 1, false);
         stalker_2.PlayGuitar();
 
+        Stalker stalker_3 = new Stalker("Ляля Афган", 150, 2, false);
+        stalker_3.Yell("Свободовцы все петухи!");
         
         Console.ReadLine();
     }
-
-
 }

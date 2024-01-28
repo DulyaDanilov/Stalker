@@ -29,10 +29,7 @@
             Console.WriteLine(Name + " поел тушенки и пополнил " + Eat + " здоровья ");
             Console.WriteLine($"У {Name} теперь {Hp} здороыья");
         }
-        public void RunFromTushkan()
-        {
-            Console.WriteLine(Name + " убежал от тушкана со скоростью " + Speed);
-        }
+        public void RunFromTushkan() => Console.WriteLine(Name + " убежал от тушкана со скоростью " + Speed);
 
         public void RecieveDamage(int damage)
         {
@@ -42,11 +39,8 @@
             Console.WriteLine($"У {Name} теперь {Hp} здоровья");
         }
 
-        public void PlayGuitar()
-        {
-            Console.WriteLine(Name + " Играет на гитаре");
-        }
-
+        public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
+        public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
     }
 
 }
