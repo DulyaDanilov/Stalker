@@ -3,8 +3,6 @@
 
 
     namespace Training
-
-
     {
     public class Stalker
     {
@@ -41,19 +39,8 @@
 
         public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
         public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
-
-        public void PlayFootball(float speed)
-        {
-            Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
-        }
-        public void RIP()
-        {
-            Console.WriteLine(Name + " стоял на воротах и умер");
-
-        }
-        
-      
-
+        public void PlayFootball(float speed) => Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
+        public void RIP() => Console.WriteLine(Name + " стоял на воротах и умер");
     }
 
 }
