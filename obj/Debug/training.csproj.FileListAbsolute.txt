@@ -12,6 +12,7 @@ E:\.net repos\Training\Stalker\obj\Debug\training.csproj.AssemblyReference.cache
 E:\.net repos\Training\Stalker\obj\Debug\training.csproj.CoreCompileInputs.cache
 E:\.net repos\Training\Stalker\obj\Debug\ConsoleApp1.exe
 E:\.net repos\Training\Stalker\obj\Debug\ConsoleApp1.pdb
+<<<<<<< HEAD
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\training.csproj.AssemblyReference.cache
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\training.csproj.CoreCompileInputs.cache
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\ConsoleApp1.exe
@@ -19,3 +20,5 @@ C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\ConsoleApp1.pdb
 C:\Users\1\source\repos\Stalker\Stalker\bin\Debug\ConsoleApp1.exe.config
 C:\Users\1\source\repos\Stalker\Stalker\bin\Debug\ConsoleApp1.exe
 C:\Users\1\source\repos\Stalker\Stalker\bin\Debug\ConsoleApp1.pdb
+=======
+>>>>>>> 65fadbf2a715e89b639ec790ac998d47c6b7017f

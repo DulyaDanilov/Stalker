@@ -41,6 +41,7 @@
 
         public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
         public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
+
         public void PlayFootball(float speed)
         {
             Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
@@ -52,6 +53,7 @@
         }
         
       
+
     }
 
 }
