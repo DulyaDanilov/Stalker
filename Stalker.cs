@@ -42,7 +42,6 @@
         public void PlayFootball(float speed) => Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
         public void RIP() => Console.WriteLine(Name + " стоял на воротах и умер");
     }
-
 }
     
   
