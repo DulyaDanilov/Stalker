@@ -1,7 +1,4 @@
 ﻿using System;
-
-
-
     namespace Training
     {
     public class Stalker
@@ -19,6 +16,7 @@
             Hp = hp;
             Speed = speed;
             this.dead = dead;
+            
         }
 
         public void EatTushonka(int Eat)
@@ -35,12 +33,22 @@
 
             Console.WriteLine(Name + " получил " + damage + " урона!");
             Console.WriteLine($"У {Name} теперь {Hp} здоровья");
+
+            if(Hp <= 0)
+            {
+                Die();
+            }
+        }
+
+        private void Die()
+        {
+            dead = true;
+            Console.WriteLine($"{Name} умер!");
         }
 
         public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
         public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
         public void PlayFootball(float speed) => Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
-        public void RIP() => Console.WriteLine(Name + " стоял на воротах и умер");
     }
 }
     
