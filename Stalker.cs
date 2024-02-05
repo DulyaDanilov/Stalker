@@ -1,5 +1,7 @@
 ﻿using System;
-    namespace Training
+using Training;
+
+namespace Training
     {
     public class Stalker
     {
@@ -52,4 +54,19 @@
     }
 }
     
-  
+  public class Tushkan
+{
+    private int damage;
+
+    public Tushkan(int damage)
+    {
+        this.damage = damage;
+    }
+
+    public void Attack(Stalker target )
+    {
+        Console.WriteLine($" Тушкан атакует {target.Name} ");
+        target.RecieveDamage(damage);
+
+    }
+}
