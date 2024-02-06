@@ -1,8 +1,7 @@
 ﻿using System;
-using Training;
 
 namespace Training
-    {
+{
     public class Stalker
     {
         public string Name = "Дуля Данилов";
@@ -52,7 +51,7 @@ namespace Training
         public void Heal(int Heal)
         {
             Hp += Heal;
-            if (Hp < MaxHp);
+            if (Hp < MaxHp)
             {
                 Hp = MaxHp;
                 Console.WriteLine(Name + " пополнил " + Heal + " здоровья ");
@@ -66,22 +65,5 @@ namespace Training
         public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
         public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
         public void PlayFootball(float speed) => Console.WriteLine(Name + " уебал по мячу со скоростью " + speed + " км/ч");
-    }
-}
-    
-  public class Tushkan
-{
-    private int damage;
-
-    public Tushkan(int damage)
-    {
-        this.damage = damage;
-    }
-
-    public void Attack(Stalker target )
-    {
-        Console.WriteLine($" Тушкан атакует {target.Name} ");
-        target.RecieveDamage(damage);
-
     }
 }
