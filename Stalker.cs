@@ -12,13 +12,13 @@ namespace Training
 
         public Stalker Friend;
 
-        public Stalker(string name, int hp, float speed, bool dead)
+        public Stalker(string name, int hp, int MaxHp, float speed, bool dead)
         {
             Name = name;
             Hp = hp;
             Speed = speed;
             this.dead = dead;
-            
+
         }
 
         public void EatTushonka(int Eat)
@@ -36,7 +36,7 @@ namespace Training
             Console.WriteLine(Name + " получил " + damage + " урона!");
             Console.WriteLine($"У {Name} теперь {Hp} здоровья");
 
-            if(Hp <= 0)
+            if (Hp <= 0)
             {
                 Die();
             }
@@ -47,6 +47,19 @@ namespace Training
             dead = true;
             Console.WriteLine($"{Name} умер!");
         }
+        public void Heal(int Heal)
+        {
+            Hp += 50;
+            if (Hp > 300);
+            {
+                Hp = 300;
+                Console.WriteLine(Name + " пополнил " + Heal + " здоровья ");
+
+            }
+            
+        }
+        
+
 
         public void PlayGuitar() => Console.WriteLine(Name + " Играет на гитаре");
         public void Yell(string phrase) => Console.WriteLine($"{Name} кричит {phrase}");
