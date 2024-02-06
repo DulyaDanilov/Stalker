@@ -14,7 +14,7 @@ class Program
         Stalker stalker_5 = new Stalker("Говноед Медведыч", 200, 40, 490, false);
         Tushkan tushkan_1 = new Tushkan(74);
         tushkan_1.Attack(stalker_1);
-        stalker_1.Heal(50);
+        stalker_1.Heal(400);
         stalker_1.EatTushonka(5);
         stalker_1.RunFromTushkan();
         stalker_1.RecieveDamage(5);

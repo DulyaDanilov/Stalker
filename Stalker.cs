@@ -9,15 +9,17 @@ namespace Training
         public int Hp; // 0 1 2 3 -4 -5 
         public float Speed; //0.2341231241243
         public bool dead; //true или false
+        public int MaxHp;
 
         public Stalker Friend;
 
-        public Stalker(string name, int hp, int MaxHp, float speed, bool dead)
+        public Stalker(string name, int hp, int maxhp, float speed, bool dead)
         {
             Name = name;
             Hp = hp;
             Speed = speed;
             this.dead = dead;
+            MaxHp = maxhp;
 
         }
 
@@ -49,12 +51,12 @@ namespace Training
         }
         public void Heal(int Heal)
         {
-            Hp += 50;
-            if (Hp > 300);
+            Hp += Heal;
+            if (Hp < MaxHp);
             {
-                Hp = 300;
+                Hp = MaxHp;
                 Console.WriteLine(Name + " пополнил " + Heal + " здоровья ");
-
+                Console.WriteLine($"У {Name} теперь {Hp} здоровья ");
             }
             
         }
