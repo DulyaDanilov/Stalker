@@ -6,7 +6,7 @@ public class Mutant
     public string Name;
     protected int damage;
     protected int Hp;
-    bool Dead;
+    public bool Dead;
     public Mutant(int damage,int Hp, string name, bool dead)
     {
         this.damage = damage;
@@ -36,7 +36,7 @@ public class Mutant
             Die();
         }
     }
-        public virtual void Die()
+    public virtual void Die()
     {
         Dead = true;
         Console.WriteLine($"{Name} умер");
