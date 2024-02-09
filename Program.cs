@@ -1,30 +1,12 @@
 ﻿using System;
-using Training;
 
 class Program
 {
     static void Main(string[] args)
     {
-        //Console.WriteLine("Дуля Данилов");
-        Stalker stalker_1 = new Stalker("Дуля Данилов", 100, 300, 4, false);
-        Stalker stalker_2 = new Stalker("Игорь Ипучий", 145, 200, 400, false);
-        Stalker stalker_3 = new Stalker("Ляля Афган", 150, 200, 150, false);
-        Stalker stalker_4 = new Stalker("Максимка Чушпан", 300, 40, 124, false);
-        Stalker stalker_5 = new Stalker("Говноед Медведыч", 200, 40, 490, false);
+        Location cordon = new Location("Кордон");
+        cordon.StartDay();
 
-        Tushkan tushkan_1 = new Tushkan(25, 200, false);
-        Boar boar = new Boar(35, 187, true);
-
-        boar.Attack(stalker_1);
-        tushkan_1.Attack(stalker_1);
-        boar.ReciveDamage(190);
-        stalker_1.EatTushonka(5);
-        stalker_1.RunFromTushkan();
-        stalker_1.RecieveDamage(5);
-        stalker_2.PlayGuitar();
-        stalker_3.Yell("Свободовцы все петухи!");
-        stalker_4.PlayFootball(40);
-        stalker_5.RecieveDamage(500);
         Console.ReadLine();
     }
 }
@@ -45,5 +27,8 @@ class Program
 //virtual - для переопределения, используется в связке с override
 //конструктор у наследования вызывается по типу public Boar(int damage) : base(damage, _name) где base это прост овызов конвтруктора
 //родителя с заданными аргументами
+//используем класс наследник как клаасс-родитель = приведение
 
 //циклы
+// for (int pointer = 0; pointer < 10; pointer++)
+// while (условие)

@@ -9,17 +9,22 @@ namespace Training
         public float Speed; //0.2341231241243
         public bool dead; //true или false
         public int MaxHp;
-
+        public int Damage;
         public Stalker Friend;
 
-        public Stalker(string name, int hp, int maxhp, float speed, bool dead)
+        public Stalker(string name, int hp, int maxhp, float speed, bool dead, int damage)
         {
             Name = name;
             Hp = hp;
             Speed = speed;
             this.dead = dead;
             MaxHp = maxhp;
-
+            Damage = damage;
+        }
+        public void Attack(Mutant mutant)
+        {
+            Console.WriteLine($"{Name} атаковал  {mutant.Name} и нанёс {Damage} урона!");
+            mutant.ReciveDamage(Damage);
         }
 
         public void EatTushonka(int Eat)

@@ -43,10 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Location.cs" />
     <Compile Include="Mutants\BlindDog.cs" />
     <Compile Include="Mutants\Bloodsucker.cs" />
     <Compile Include="Mutants\Boar.cs" />
     <Compile Include="Mutants\Flesh.cs" />
+    <Compile Include="Mutants\IHipointOwner.cs" />
     <Compile Include="Mutants\Mutant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

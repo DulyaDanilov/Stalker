@@ -1,7 +1,7 @@
 ﻿using System;
 using Training;
 
-public class Mutant
+public class Mutant : IHipointOwner
 {
     public string Name;
     protected int damage;
