@@ -5,6 +5,16 @@ public class Mutant
 {
     public string Name;
     protected int damage;
+    protected int Hp;
+    bool Dead;
+    public Mutant(int damage,int Hp, string name, bool dead)
+    {
+        this.damage = damage;
+        Name = name;
+        this.Hp = Hp;
+        Dead = dead;
+    }
+
     public Mutant(int damage, string name)
     {
         this.damage = damage;
@@ -16,4 +26,21 @@ public class Mutant
         Console.WriteLine($"{Name} атакует {target.Name} ");
         target.RecieveDamage(damage);
     }
+    public virtual void ReciveDamage(int damage)
+    {
+        Hp -= damage;
+        Console.WriteLine(Name + " получил " + damage + " урона!");
+        Console.WriteLine($"У {Name} теперь {Hp} здоровья");
+        if (Hp <= 0)
+        {
+            Die();
+        }
+    }
+        public virtual void Die()
+    {
+        Dead = true;
+        Console.WriteLine($"{Name} умер");
+    }
+    
+    
 }

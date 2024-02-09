@@ -12,11 +12,12 @@ class Program
         Stalker stalker_4 = new Stalker("Максимка Чушпан", 300, 40, 124, false);
         Stalker stalker_5 = new Stalker("Говноед Медведыч", 200, 40, 490, false);
 
-        Tushkan tushkan_1 = new Tushkan(25);
-        Boar boar = new Boar(35);
+        Tushkan tushkan_1 = new Tushkan(25, 200, false);
+        Boar boar = new Boar(35, 187, true);
 
         boar.Attack(stalker_1);
         tushkan_1.Attack(stalker_1);
+        boar.ReciveDamage(190);
         stalker_1.EatTushonka(5);
         stalker_1.RunFromTushkan();
         stalker_1.RecieveDamage(5);
