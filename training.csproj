@@ -46,7 +46,7 @@
     <Compile Include="Mutants\BlindDog.cs" />
     <Compile Include="Mutants\Bloodsucker.cs" />
     <Compile Include="Mutants\Boar.cs" />
-    <Compile Include="Mutants\FleshBase.cs" />
+    <Compile Include="Mutants\Flesh.cs" />
     <Compile Include="Mutants\Mutant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
