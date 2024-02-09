@@ -27,10 +27,13 @@ namespace Training
             mutant.ReciveDamage(Damage);
         }
 
-        public void EatTushonka(int Eat)
+        public void EatTushonka(int count)
         {
-            Hp += Eat;
-            Console.WriteLine(Name + " поел тушенки и пополнил " + Eat + " здоровья ");
+            for (int i = 0; i < count; i++)
+            {
+                Hp += 5;
+            }
+            Console.WriteLine($"{Name} съел {count} банок тушенки и пополнил {count*5} здоровья ");
             Console.WriteLine($"У {Name} теперь {Hp} здороыья");
         }
         public void RunFromTushkan() => Console.WriteLine(Name + " убежал от тушкана со скоростью " + Speed);
