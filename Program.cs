@@ -10,6 +10,25 @@ class Program
         Console.ReadLine();
     }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //классы методы
 
 //типы данных и переменные
@@ -31,4 +50,5 @@ class Program
 
 //циклы
 // for (int pointer = 0; pointer < 10; pointer++)
+// foreach
 // while (условие)

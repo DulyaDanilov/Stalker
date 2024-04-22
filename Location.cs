@@ -30,14 +30,20 @@ public class Location
         Console.WriteLine(" ");
 
         Console.WriteLine($"На {name}е находятся сталкеры:");
+        
+        
         foreach (Stalker stalker in Stalkers)
             Console.WriteLine($"{stalker.Name}");
+
+        
 
         Console.WriteLine(" ");
 
         Console.WriteLine($"На {name}е находятся мутанты:");
+        
         foreach (Mutant mutant in Mutants)
             Console.WriteLine($"{mutant.Name}");
+       
         Console.WriteLine(" ");
     }
     public void StartDay()
@@ -46,5 +52,7 @@ public class Location
         Stalkers[2].Yell("Вали, вали хуесоса!");
         Stalkers[3].PlayGuitar();
         Stalkers[4].EatTushonka(10);
+
+        Mutants[4].Attack(Stalkers[0]);
     }
 }
