@@ -16,7 +16,7 @@ public class BlindDog : Mutant
         {
             int damage = _damage / 2;
 
-            Console.WriteLine($"{_name} бросается на {target.Name} и наносит {_damage / 1 / 2} урона");
+            Console.WriteLine($"{_name} бросается на {target.Name} и наносит {damage} урона");
             target.RecieveDamage(damage);
         }
     }
