@@ -12,3 +12,10 @@ C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\training.csproj.AssemblyRefere
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\training.csproj.CoreCompileInputs.cache
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\ConsoleApp1.exe
 C:\Users\1\source\repos\Stalker\Stalker\obj\Debug\ConsoleApp1.pdb
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\bin\Debug\ConsoleApp1.exe
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\bin\Debug\ConsoleApp1.pdb
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\obj\Debug\training.csproj.AssemblyReference.cache
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\obj\Debug\training.csproj.CoreCompileInputs.cache
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\obj\Debug\ConsoleApp1.exe
+C:\Users\Советская\Documents\Visual Studio 2022\Stalker\Stalker\obj\Debug\ConsoleApp1.pdb

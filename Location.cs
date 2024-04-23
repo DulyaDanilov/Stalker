@@ -20,7 +20,7 @@ public class Location
         
 
         Mutants[0] = new Tushkan(10, 10, false);
-        Mutants[1] = new Flesh(10, 10, false);
+        Mutants[1] = new BlindDog(10, 10, false);
         Mutants[2] = new Tushkan(10, 10, false);
         Mutants[3] = new Flesh(10, 10, false);
         Mutants[4] = new Bloodsucker(10, 10, false);
@@ -54,5 +54,7 @@ public class Location
         Stalkers[4].EatTushonka(10);
 
         Mutants[4].Attack(Stalkers[0]);
+        Mutants[0].Attack(Stalkers[0]);
+        Mutants[1].Attack(Stalkers[2]);
     }
 }
