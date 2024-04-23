@@ -4,12 +4,12 @@ using Training;
 public class Mutant : IHipointOwner
 {
     public string Name;
-    protected int damage;
+    protected int _damage;
     protected int Hp;
     public bool Dead;
     public Mutant(int damage,int Hp, string name, bool dead)
     {
-        this.damage = damage;
+        this._damage = damage;
         Name = name;
         this.Hp = Hp;
         Dead = dead;
@@ -17,14 +17,14 @@ public class Mutant : IHipointOwner
 
     public Mutant(int damage, string name)
     {
-        this.damage = damage;
+        this._damage = damage;
         Name = name;
     }
 
     public virtual void Attack(Stalker target)
     {
         Console.WriteLine($"{Name} атакует {target.Name} ");
-        target.RecieveDamage(damage);
+        target.RecieveDamage(_damage);
     }
     public virtual void ReciveDamage(int damage)
     {

@@ -11,9 +11,13 @@ public class BlindDog : Mutant
     {
         int multiattack = 4;
         int attackDone = multiattack;
+       
         while(--attackDone >= 0)
         {
-            Console.WriteLine($"{_name} бросается на {target.Name} и наносит {damage / 1/2} урона");
+            int damage = _damage / 2;
+
+            Console.WriteLine($"{_name} бросается на {target.Name} и наносит {_damage / 1 / 2} урона");
+            target.RecieveDamage(damage);
         }
     }
 }
