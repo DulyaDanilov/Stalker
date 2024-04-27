@@ -36,7 +36,7 @@ namespace ConsoleApp1.Collections
             {
                 _dictionary.Add(stalker.Name, stalker);
             }
-            _dictionary["дуля"]
+            //_dictionary["дуля"]
         }
 
 

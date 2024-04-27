@@ -13,7 +13,7 @@ public class Location
     public Location(string name)
     {
         Name = name;
-        Stalkers = stalkerFactory.GetArray(10);
+        Stalkers = stalkerFactory.GetArray(5);
         Mutants[0] = new Tushkan(10, 10, false);
         Mutants[1] = new BlindDog(10, 10, false);
         Mutants[2] = new Tushkan(10, 10, false);

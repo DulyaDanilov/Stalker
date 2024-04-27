@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\StalkerFactory.cs" />
+    <Compile Include="INFO\Auxillary\Random_Info.cs" />
+    <Compile Include="INFO\Collections\Collection_Info.cs" />
+    <Compile Include="INFO\Patterns\Factory_Info.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Mutants\BlindDog.cs" />
     <Compile Include="Mutants\Bloodsucker.cs" />

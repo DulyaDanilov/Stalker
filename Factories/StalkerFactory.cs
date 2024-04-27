@@ -9,7 +9,10 @@ namespace ConsoleApp1.Factories
         {
             "Дуля Данилов",
             "Ляля Афганский",
-            "Чушок Уебанский", // и т д 
+            "Чушок Уебанский", 
+            "Иван Иваныч",
+            "Владимир Петрович",
+            "Дурик Балванович",
         };
 
         private Random _random = new Random();
@@ -19,22 +22,21 @@ namespace ConsoleApp1.Factories
             int nameindex = _random.Next(0, _names.Length - 1);
             string name = _names[nameindex];
             int hp = _random.Next(100, 150);
-            int damage = 0;
-            float speed = 0;
-            
-            stalker = new Stalker (name, hp, hp, speed, false, damage);
-            ///.
-            /// какая-то логика генерации, наверное
-            ///.
+            int damage = _random.Next(3,7);
+            float speed = _random.Next(45,100);
+            stalker = new Stalker (name, hp, hp, speed, false, damage); 
+
             return stalker;
         }
 
         public Stalker[] GetArray(int size)
         {
+            
             Stalker[] stalkers = new Stalker[size];
-
-            ///в цикле заполнить массив
-
+            for (int i = 0; i <= stalkers.Length -1; i++)
+            {
+                stalkers[i] = Get();
+            }
             return stalkers;
         }
 
