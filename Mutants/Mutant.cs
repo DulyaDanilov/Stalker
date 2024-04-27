@@ -40,7 +40,5 @@ public class Mutant : IHipointOwner
     {
         Dead = true;
         Console.WriteLine($"{Name} умер");
-    }
-    
-    
+    }  
 }

@@ -16,13 +16,5 @@ public class Bloodsucker : Mutant
             base.Attack(target);
             Console.WriteLine($"{_name} наносит быстрый удар по {target.Name}!");
         }
-        
-        //int attacksDone = _attackCount;
-        //while (--attacksDone > 0)
-        //{
-        //    base.Attack(target);
-        //    Console.WriteLine($"{_name} наносит быстрый удар по {target.Name}!");
-        //    attacksDone++;
-        //}
     }
 }
