@@ -10,11 +10,12 @@ public class Location
     public Mutant[] Mutants = new Mutant[6];
     
     StalkerFactory stalkerFactory = new StalkerFactory();
+    TushkanFactory tushkanFactory = new TushkanFactory();
     public Location(string name)
     {
         Name = name;
         Stalkers = stalkerFactory.GetArray(5);
-        Mutants[0] = new Tushkan(10, 10, false);
+        Mutants[0] = tushkanFactory.Get();
         Mutants[1] = new BlindDog(10, 10, false);
         Mutants[2] = new Tushkan(10, 10, false);
         Mutants[3] = new Flesh(10, 10, false);
