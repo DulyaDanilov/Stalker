@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\g4choppa\\documents\\github\\stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\TuskanFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Factories\\TuskanFactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\mutants\\blinddog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\blinddog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\mutants\\bloodsucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\bloodsucker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\mutants\\mutant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\mutant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\mutants\\tushkan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\tushkan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\mutants\\flesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\flesh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -38,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,88 +34,52 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "BlindDog.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\BlindDog.cs",
-              "RelativeDocumentMoniker": "Mutants\\BlindDog.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\BlindDog.cs",
-              "RelativeToolTip": "Mutants\\BlindDog.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAgwA8AAAAgAAAA",
+              "DocumentIndex": 0,
+              "Title": "TuskanFactory.cs",
+              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\TuskanFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\TuskanFactory.cs",
+              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\TuskanFactory.cs",
+              "RelativeToolTip": "Factories\\TuskanFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-23T12:40:19.19Z"
+              "WhenOpened": "2024-04-29T16:35:37.49Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StalkerFactory.cs",
+              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\StalkerFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\StalkerFactory.cs",
+              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\StalkerFactory.cs",
+              "RelativeToolTip": "Factories\\StalkerFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-28T09:31:43.393Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Mutant.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Mutant.cs",
-              "RelativeDocumentMoniker": "Mutants\\Mutant.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Mutant.cs",
-              "RelativeToolTip": "Mutants\\Mutant.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwBsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T09:27:49.416Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Tushkan.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Tushkan.cs",
-              "RelativeDocumentMoniker": "Mutants\\Tushkan.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Tushkan.cs",
-              "RelativeToolTip": "Mutants\\Tushkan.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:51:13.223Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Bloodsucker.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Bloodsucker.cs",
-              "RelativeDocumentMoniker": "Mutants\\Bloodsucker.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Bloodsucker.cs",
-              "RelativeToolTip": "Mutants\\Bloodsucker.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:51:13.272Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Flesh.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Flesh.cs",
-              "RelativeDocumentMoniker": "Mutants\\Flesh.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Mutants\\Flesh.cs",
-              "RelativeToolTip": "Mutants\\Flesh.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:51:13.274Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAxwAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:51:13.275Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Location.cs",
               "RelativeDocumentMoniker": "Location.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Location.cs",
-              "RelativeToolTip": "Location.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwDUAAAAAAAAA",
+              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Location.cs*",
+              "RelativeToolTip": "Location.cs*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:51:13.456Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T08:51:13.456Z"
             }
           ]
         }
