@@ -57,8 +57,9 @@
     <Compile Include="Mutants\Bloodsucker.cs" />
     <Compile Include="Mutants\Boar.cs" />
     <Compile Include="Mutants\Flesh.cs" />
-    <Compile Include="Mutants\IHipointOwner.cs" />
-    <Compile Include="Mutants\Mutant.cs" />
+    <Compile Include="Mutants\ICreatureInfoProvider.cs" />
+    <Compile Include="Mutants\IHitpointOwner.cs" />
+    <Compile Include="Mutants\AbstractMutant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Stalker.cs" />

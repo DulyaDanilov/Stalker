@@ -1,21 +1,29 @@
 ﻿using System;
 using Training;
 
-public class Boar : Mutant
+public class Boar : AbstractMutant
 {
     private const string _name = "Кабан";
     public Boar(int damage,int Hp,bool Dead) : base(damage,Hp,_name,Dead)
     {
     }
 
-    public override void Attack(Stalker target)
+    public override void Attack(IHitpointOwner hitpointOwner, ICreatureInfoProvider creatureInfo)
     {
-        base.Attack(target);
+        base.Attack(hitpointOwner, creatureInfo);
+
+
         Console.WriteLine("Кабан издёт громкий визг!");
     }
-    public override void ReciveDamage(int damage)
+
+    public override string GetMutantDescription()
     {
-        base.ReciveDamage(damage);
+        return "ну кабан и кабан";
+    }
+
+    public override void RecieveDamage(int damage)
+    {
+        base.RecieveDamage(damage);
         Console.WriteLine("Кабан в шоке");
     }
 }

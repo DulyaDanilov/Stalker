@@ -1,32 +1,29 @@
 ﻿using System;
 using Training;
 
-public class Mutant : IHipointOwner
+public abstract class AbstractMutant : IHitpointOwner, ICreatureInfoProvider
 {
-    public string Name;
+    public string Name => _name;
+    private string _name;
     protected int _damage;
     protected int Hp;
     public bool Dead;
-    public Mutant(int damage,int Hp, string name, bool dead)
+    public AbstractMutant(int damage,int Hp, string name, bool dead)
     {
         this._damage = damage;
-        Name = name;
+        _name = name;
         this.Hp = Hp;
         Dead = dead;
     }
 
-    public Mutant(int damage, string name)
-    {
-        this._damage = damage;
-        Name = name;
-    }
+    public abstract string GetMutantDescription();
 
-    public virtual void Attack(Stalker target)
+    public virtual void Attack(IHitpointOwner hitpointOwner, ICreatureInfoProvider creatureInfo)
     {
-        Console.WriteLine($"{Name} атакует {target.Name} ");
-        target.RecieveDamage(_damage);
+        Console.WriteLine($"{Name} атакует {creatureInfo.Name} ");
+        hitpointOwner.RecieveDamage(_damage);
     }
-    public virtual void ReciveDamage(int damage)
+    public virtual void RecieveDamage(int damage)
     {
         Hp -= damage;
         Console.WriteLine(Name + " получил " + damage + " урона!");
@@ -40,5 +37,5 @@ public class Mutant : IHipointOwner
     {
         Dead = true;
         Console.WriteLine($"{Name} умер");
-    }  
+    }
 }
