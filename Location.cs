@@ -52,14 +52,13 @@ public class Location
     }
     public void StartDay()
     {
-        Stalkers[_random.Next(0, Stalkers.Length - 1)].Attack (Mutants[0]);
-        Stalkers[_random.Next(0, Stalkers.Length - 1)].Attack(Mutants[0]);
+        Stalkers[_random.Next(0, Stalkers.Length - 1)].Attack(Mutants[_random.Next(0, Mutants.Length - 1)]);
         Stalkers[_random.Next(0, Stalkers.Length - 1)].EatTushonka(2);
         Stalkers[_random.Next(0, Stalkers.Length - 1)].RunFromTushkan();
         Stalkers[_random.Next(0, Stalkers.Length - 1)].PlayGuitar();
         Stalkers[_random.Next(0, Stalkers.Length - 1)].PlayFootball(80);
 
-        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[0]);
-        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[0]);
+        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[_random.Next(0, Stalkers.Length - 1)]);
+        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[_random.Next(0, Stalkers.Length - 1)]);
     }
 }
