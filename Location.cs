@@ -13,6 +13,10 @@ public class Location
     
     StalkerFactory stalkerFactory = new StalkerFactory();
     TushkanFactory tushkanFactory = new TushkanFactory();
+    BlindDogFactory blindDogFactory = new BlindDogFactory();
+    FleshFactory fleshFactory = new FleshFactory();
+    Boarfactory boarFactory = new Boarfactory();
+    BloodsuckerFactory bloodsuckerFactory = new BloodsuckerFactory();
     public Location(string name)
     {
         Name = name;
@@ -21,11 +25,11 @@ public class Location
 
 
         Mutants[0] = tushkanFactory.Get();
-        Mutants[1] = new BlindDog(10, 10, false);
-        Mutants[2] = new Tushkan(10, 10, false);
-        Mutants[3] = new Flesh(10, 10, false);
-        Mutants[4] = new Bloodsucker(10, 10, false);
-        Mutants[5] = new Boar(10, 10, false);
+        Mutants[1] = blindDogFactory.Get();
+        Mutants[2] = fleshFactory.Get();
+        Mutants[3] = boarFactory.Get();
+        Mutants[4] = bloodsuckerFactory.Get();
+        
 
         Console.WriteLine($"Вы на локации {name}");
         Console.WriteLine(" ");
@@ -52,7 +56,7 @@ public class Location
         Stalkers[3].PlayGuitar();
         Stalkers[4].EatTushonka(10);
 
-        Mutants[4].Attack(Stalkers[0]);
+        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[0]);
         Mutants[0].Attack(Stalkers[0]);
         Mutants[1].Attack(Stalkers[2]);
     }

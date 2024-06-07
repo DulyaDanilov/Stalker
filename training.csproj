@@ -43,7 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Factories\BlindDogFactory.cs" />
+    <Compile Include="Factories\BloodsuckerFactory.cs" />
+    <Compile Include="Factories\Boar.cs" />
+    <Compile Include="Factories\FleshFactory.cs" />
     <Compile Include="Factories\StalkerFactory.cs" />
+    <Compile Include="Factories\TuskanFactory.cs" />
     <Compile Include="INFO\Auxillary\Random_Info.cs" />
     <Compile Include="INFO\Collections\Collection_Info.cs" />
     <Compile Include="INFO\Patterns\Factory_Info.cs" />
