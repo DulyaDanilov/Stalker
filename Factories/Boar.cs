@@ -7,8 +7,8 @@ namespace ConsoleApp1.Factories
         public Boar Get()
         {
             Boar boar;
-            int hp = _random.Next(6, 10);
-            int damage = _random.Next(5, 7);
+            int hp = _random.Next(40, 60);
+            int damage = _random.Next(30, 35);
             boar = new Boar (hp, damage, false);
             return boar;
 

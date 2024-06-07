@@ -3,24 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\factories\\tuskanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\tuskanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\factories\\fleshfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\fleshfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\factories\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\boar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\mutants\\mutant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\mutant.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\factories\\tuskanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\tuskanfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,65 +42,78 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Mutant.cs",
-              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Mutants\\Mutant.cs",
-              "RelativeDocumentMoniker": "Mutants\\Mutant.cs",
-              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Mutants\\Mutant.cs",
-              "RelativeToolTip": "Mutants\\Mutant.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "DocumentIndex": 1,
+              "Title": "FleshFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\FleshFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\FleshFactory.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\FleshFactory.cs",
+              "RelativeToolTip": "Factories\\FleshFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T07:24:11.544Z",
+              "WhenOpened": "2024-06-07T08:26:51.319Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "Boar.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\Boar.cs",
+              "RelativeDocumentMoniker": "Factories\\Boar.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\Boar.cs",
+              "RelativeToolTip": "Factories\\Boar.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-07T08:26:34.186Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "TuskanFactory.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\TuskanFactory.cs",
               "RelativeDocumentMoniker": "Factories\\TuskanFactory.cs",
               "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\TuskanFactory.cs",
               "RelativeToolTip": "Factories\\TuskanFactory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T06:25:47.802Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "StalkerFactory.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\StalkerFactory.cs",
               "RelativeDocumentMoniker": "Factories\\StalkerFactory.cs",
               "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\StalkerFactory.cs",
               "RelativeToolTip": "Factories\\StalkerFactory.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBEAAAAbAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-28T09:31:43.393Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:51:13.275Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Location.cs",
               "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Location.cs",
               "RelativeDocumentMoniker": "Location.cs",
               "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Location.cs",
               "RelativeToolTip": "Location.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwDoAAABJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:51:13.456Z",
               "EditorCaption": ""

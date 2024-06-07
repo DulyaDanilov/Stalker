@@ -8,8 +8,8 @@ namespace ConsoleApp1.Factories
         public Flesh Get()
         {
             Flesh flesh;
-            int hp = _random.Next(5, 8);
-            int damage = _random.Next(4, 5);
+            int hp = _random.Next(15, 27);
+            int damage = _random.Next(4, 50);
             flesh = new Flesh(damage, hp, false);
             return flesh;
         }

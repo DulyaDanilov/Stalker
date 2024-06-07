@@ -9,20 +9,20 @@ public class Location
     private Random _random = new Random();
 
     public Stalker[] Stalkers = new Stalker[5];
-    public Mutant[] Mutants = new Mutant[6];
+    public Mutant[] Mutants = new Mutant[5];
     
-    StalkerFactory stalkerFactory = new StalkerFactory();
-    TushkanFactory tushkanFactory = new TushkanFactory();
-    BlindDogFactory blindDogFactory = new BlindDogFactory();
-    FleshFactory fleshFactory = new FleshFactory();
-    Boarfactory boarFactory = new Boarfactory();
-    BloodsuckerFactory bloodsuckerFactory = new BloodsuckerFactory();
+    private StalkerFactory stalkerFactory = new StalkerFactory();
+    private TushkanFactory tushkanFactory = new TushkanFactory();
+    private BlindDogFactory blindDogFactory = new BlindDogFactory();
+    private FleshFactory fleshFactory = new FleshFactory();
+    private Boarfactory boarFactory = new Boarfactory();
+    private BloodsuckerFactory bloodsuckerFactory = new BloodsuckerFactory();
     public Location(string name)
     {
         Name = name;
 
-        Stalkers = stalkerFactory.GetArray(_random.Next(1, 10));
-
+        Stalkers = stalkerFactory.GetArray(_random.Next(3, 10));
+       
 
         Mutants[0] = tushkanFactory.Get();
         Mutants[1] = blindDogFactory.Get();
@@ -51,13 +51,10 @@ public class Location
     }
     public void StartDay()
     {
-        Stalkers[_random.Next(0, Stalkers.Length-1)].Attack(Mutants[0]);
-        Stalkers[2].Yell("Вали, вали хуесоса!");
-        Stalkers[3].PlayGuitar();
-        Stalkers[4].EatTushonka(10);
+        Stalkers[_random.Next(0, Stalkers.Length - 1)].Attack (Mutants[0]);
+        Stalkers[_random.Next(0, Stalkers.Length - 1)].Attack(Mutants[0]);
 
         Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[0]);
-        Mutants[0].Attack(Stalkers[0]);
-        Mutants[1].Attack(Stalkers[2]);
+        Mutants[_random.Next(0, Mutants.Length - 1)].Attack(Stalkers[0]);
     }
 }

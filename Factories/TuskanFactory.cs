@@ -8,8 +8,8 @@ namespace ConsoleApp1.Factories
         public Tushkan Get()
         {
             Tushkan tushkan; //пустая ссылка
-            int hp = _random.Next(5, 10);
-            int damage = _random.Next(3, 7);
+            int hp = _random.Next(10, 20);
+            int damage = _random.Next(8, 12);
             tushkan = new Tushkan(damage, hp, false);
             return tushkan;
         }
