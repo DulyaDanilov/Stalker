@@ -36,9 +36,9 @@ class Program
 
 //логические операторы
 // if, if else, else
-// ==, !=, <, >, <=, >=, && (и), || (или), ^(либо), !bool или bool (напр. dead или !dead) 
-//if (dead) //if(dead==true)
-//if (!dead) //if(dead!=true)
+// ==, !=, <, >, <=, >=, && (и), || (или), ^(либо), !bool или bool (напр. Dead или !Dead) 
+//if (Dead) //if(Dead==true)
+//if (!Dead) //if(Dead!=true)
 
 //наследование
 //protected - почти private, но дает использовать потомкам

@@ -7,6 +7,6 @@
     }
     public override string GetMutantDescription()
     {
-        return string.Empty;
+        return "Плоть — мутировавшие до неузнаваемости свиньи, одни из самых безобидных мутантов в Зоне.";
     }
 }

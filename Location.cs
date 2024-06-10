@@ -1,4 +1,5 @@
-﻿using ConsoleApp1.Factories;
+﻿using ConsoleApp1;
+using ConsoleApp1.Factories;
 using System;
 using Training;
 
@@ -10,6 +11,7 @@ public class Location
 
     public Stalker[] Stalkers = new Stalker[5];
     public AbstractMutant[] Mutants = new AbstractMutant[5];
+    public Crate[] Crates = new Crate[5];
     
     private StalkerFactory _stalkerFactory = new StalkerFactory();
     private TushkanFactory _tushkanFactory = new TushkanFactory();
@@ -17,6 +19,7 @@ public class Location
     private FleshFactory _fleshFactory = new FleshFactory();
     private Boarfactory _boarFactory = new Boarfactory();
     private BloodsuckerFactory _bloodsuckerFactory = new BloodsuckerFactory();
+    private CrateFactory _crateFactory = new CrateFactory();
 
 
     public Location(string name)
@@ -24,7 +27,7 @@ public class Location
         Name = name;
 
         Stalkers = _stalkerFactory.GetArray(_random.Next(3, 10));
-       
+        Crates = _crateFactory.GetArray(_random.Next(3, 10));
 
         Mutants[0] = _tushkanFactory.Get();
         Mutants[1] = _blindDogFactory.Get();
@@ -50,6 +53,9 @@ public class Location
             Console.WriteLine($"{mutant.Name}");
        
         Console.WriteLine(" ");
+
+        Console.WriteLine($"На {name}e валяются {Crates.Length - 1} коробок:");
+        Console.WriteLine("");
     }
     public void StartDay()
     {
@@ -61,6 +67,7 @@ public class Location
 
         RandomMutantAttackRandomStalker();
         RandomMutantAttackRandomStalker();
+        RandomStalkerAttackRandomCrate();
 
 
 
@@ -90,8 +97,15 @@ public class Location
         Stalker stalker = GetRandomStalker();
         GetRandomMutant().Attack(stalker, stalker);
     }
+    private void RandomStalkerAttackRandomCrate()
+    {
+        Crate korobka = GetRandomKorobka();
+        GetRandomStalker().Attack(korobka, korobka);
+    }
 
     private AbstractMutant GetRandomMutant() => Mutants[_random.Next(0, Mutants.Length - 1)];
 
     private Stalker GetRandomStalker() => Stalkers[_random.Next(0, Stalkers.Length - 1)];
+
+    private Crate GetRandomKorobka() => Crates[_random.Next(0, Crates.Length - 1)];
 }
