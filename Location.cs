@@ -1,6 +1,7 @@
 ﻿using ConsoleApp1;
 using ConsoleApp1.Factories;
 using System;
+using System.Text;
 using Training;
 
 public class Location
@@ -21,6 +22,7 @@ public class Location
     private BloodsuckerFactory _bloodsuckerFactory = new BloodsuckerFactory();
     private CrateFactory _crateFactory = new CrateFactory();
 
+    private StringBuilder _sb = new StringBuilder();
 
     public Location(string name)
     {
@@ -34,29 +36,76 @@ public class Location
         Mutants[2] = _fleshFactory.Get();
         Mutants[3] = _boarFactory.Get();
         Mutants[4] = _bloodsuckerFactory.Get();
-        
 
-        Console.WriteLine($"Вы на локации {name}");
-        Console.WriteLine(" ");
 
-        Console.WriteLine($"На {name}е находятся сталкеры:");
-        
-        
+        Console.WriteLine($"Вы на локации {Name}");
+        Console.WriteLine();
+
+        Console.WriteLine($"На {Name}е находятся сталкеры:");
+
+
         foreach (Stalker stalker in Stalkers)
             Console.WriteLine($"{stalker.Name}");
 
         Console.WriteLine(" ");
 
-        Console.WriteLine($"На {name}е находятся мутанты:");
-        
-        foreach (AbstractMutant mutant in Mutants)
-            Console.WriteLine($"{mutant.Name}");
-       
-        Console.WriteLine(" ");
+        Console.WriteLine($"На {Name}е находятся мутанты:");
 
-        Console.WriteLine($"На {name}e валяются {Crates.Length - 1} коробок:");
+        foreach (AbstractMutant mutant in Mutants)
+            Console.WriteLine(mutant.Name);
+
+        Console.WriteLine(" ");
+        DisplayCrates();
+
+        // Console.WriteLine("На " + Name + "e валяются" + Crates.Length + " коробок"); //конкатинация строк, которая приводит к фрагментации памяти
+
         Console.WriteLine("");
+        Console.WriteLine($"Вы - {Stalkers[0].Name}, чего бы вы хотели такого сделать?");
+        
+        Console.WriteLine($"Доступные действия:" +
+            $"АТАКОВАТЬ");
+        string action = Console.ReadLine();
+
+        HandleAction(action);
+
     }
+
+    private void HandleAction(string action)
+    {
+        if (action == "АТАКОВАТЬ")
+        {
+            //кого??
+            //если сталкеров - вывести сталкеров итд
+
+            Console.WriteLine("Кого вы хотите атаковать?");
+            for (int i = 0; i < Stalkers.Length; i++)
+            {
+                Stalker stalker = Stalkers[i];
+                Console.WriteLine($"{i}. {stalker.Name}");
+            }
+            string indexStr = Console.ReadLine(); //можем считать только текст
+            int index = Convert.ToInt32(indexStr); //преобразовать в инт
+
+            Stalkers[0].Attack(Stalkers[index], Stalkers[index]);
+        }
+        else
+        {
+            Console.WriteLine("Неизвестная команда!");
+        }
+    }
+
+    private void DisplayCrates()
+    {
+        _sb.Append("На "); //добавление текста
+        _sb.Append(Name);
+        _sb.Append("e валяются ");
+        _sb.Append(Crates.Length);
+        _sb.Append(" коробок.");
+
+        Console.WriteLine(_sb.ToString()); //выводим содержимое Stringbuilder
+        _sb.Clear(); //очистка
+    }
+
     public void StartDay()
     {
         RandomStalkerAttackRandomMutant();
@@ -102,10 +151,7 @@ public class Location
         Crate korobka = GetRandomKorobka();
         GetRandomStalker().Attack(korobka, korobka);
     }
-
     private AbstractMutant GetRandomMutant() => Mutants[_random.Next(0, Mutants.Length - 1)];
-
-    private Stalker GetRandomStalker() => Stalkers[_random.Next(0, Stalkers.Length - 1)];
-
+    private Stalker GetRandomStalker() => Stalkers[_random.Next(1, Stalkers.Length - 1)];
     private Crate GetRandomKorobka() => Crates[_random.Next(0, Crates.Length - 1)];
 }
