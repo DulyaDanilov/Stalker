@@ -54,9 +54,7 @@ public class Location
        
         Console.WriteLine(" ");
 
-        Console.WriteLine($"На {name}e валяются коробки:");
-        foreach (Crate crate in Crates)
-            Console.WriteLine($"{crate.Name}");
+        Console.WriteLine($"На {name}e валяются {Crates.Length - 1} коробок:");
         Console.WriteLine("");
     }
     public void StartDay()
