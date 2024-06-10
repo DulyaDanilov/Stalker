@@ -47,11 +47,13 @@
     <Compile Include="Factories\BloodsuckerFactory.cs" />
     <Compile Include="Factories\Boar.cs" />
     <Compile Include="Factories\FleshFactory.cs" />
+    <Compile Include="Factories\KorobkaFactory.cs" />
     <Compile Include="Factories\StalkerFactory.cs" />
     <Compile Include="Factories\TuskanFactory.cs" />
     <Compile Include="INFO\Auxillary\Random_Info.cs" />
     <Compile Include="INFO\Collections\Collection_Info.cs" />
     <Compile Include="INFO\Patterns\Factory_Info.cs" />
+    <Compile Include="KOROBKA.cs" />
     <Compile Include="Location.cs" />
     <Compile Include="Mutants\BlindDog.cs" />
     <Compile Include="Mutants\Bloodsucker.cs" />

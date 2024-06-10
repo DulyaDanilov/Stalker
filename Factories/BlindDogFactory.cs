@@ -7,7 +7,7 @@ namespace ConsoleApp1.Factories
         public BlindDog Get()
         {
             BlindDog blindDog;
-            int hp = _random.Next(25, 50);
+            int hp = _random.Next(25, 70);
             int damage = _random.Next(16, 24);
             blindDog = new BlindDog(damage, hp, false);
             return blindDog;

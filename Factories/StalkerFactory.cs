@@ -22,7 +22,7 @@ namespace ConsoleApp1.Factories
             int nameindex = _random.Next(0, _names.Length - 1);
             string name = _names[nameindex];
             int hp = _random.Next(100, 150);
-            int damage = _random.Next(3,7);
+            int damage = _random.Next(10,50);
             float speed = _random.Next(45,100);
             stalker = new Stalker (name, hp, hp, speed, false, damage); 
 

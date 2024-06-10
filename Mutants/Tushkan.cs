@@ -19,6 +19,6 @@ public class Tushkan : AbstractMutant
 
     public override string GetMutantDescription()
     {
-        return string.Empty;
+        return "Тушканы — очень быстрые и мелкие мутанты, обладающие развитым стайным интеллектом.";
     }
 }

@@ -1,22 +1,22 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\",
+  "WorkspaceRootPath": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\g4choppa\\documents\\github\\stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\mutants\\tushkan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:mutants\\tushkan.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\factories\\korobkafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\korobkafactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\korobka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:korobka.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|c:\\users\\\u0441\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\documents\\visual studio 2022\\stalker\\stalker\\location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:location.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:factories\\stalkerfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\stalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:stalker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{64CAF59C-93C3-4146-9923-1F6A741601C5}|training.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,57 +26,61 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "KOROBKA.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\KOROBKA.cs",
+              "RelativeDocumentMoniker": "KOROBKA.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\KOROBKA.cs",
+              "RelativeToolTip": "KOROBKA.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwCQAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T07:28:47.251Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tushkan.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Mutants\\Tushkan.cs",
+              "RelativeDocumentMoniker": "Mutants\\Tushkan.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Mutants\\Tushkan.cs",
+              "RelativeToolTip": "Mutants\\Tushkan.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-10T09:42:53.574Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Stalker.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Stalker.cs",
-              "RelativeDocumentMoniker": "Stalker.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Stalker.cs",
-              "RelativeToolTip": "Stalker.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAcwEoAAABaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-07T11:59:25.69Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "StalkerFactory.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\StalkerFactory.cs",
-              "RelativeDocumentMoniker": "Factories\\StalkerFactory.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Factories\\StalkerFactory.cs",
-              "RelativeToolTip": "Factories\\StalkerFactory.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBEAAAAbAAAA",
+              "Title": "KorobkaFactory.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\KorobkaFactory.cs",
+              "RelativeDocumentMoniker": "Factories\\KorobkaFactory.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Factories\\KorobkaFactory.cs",
+              "RelativeToolTip": "Factories\\KorobkaFactory.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:31:43.393Z"
+              "WhenOpened": "2024-06-10T08:05:20.134Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAxwBEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T08:51:13.275Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "Location.cs",
-              "DocumentMoniker": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Location.cs",
+              "DocumentMoniker": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Location.cs",
               "RelativeDocumentMoniker": "Location.cs",
-              "ToolTip": "C:\\Users\\G4CHOPPA\\Documents\\GitHub\\Stalker\\Location.cs",
+              "ToolTip": "C:\\Users\\\u0421\u043E\u0432\u0435\u0442\u0441\u043A\u0430\u044F\\Documents\\Visual Studio 2022\\Stalker\\Stalker\\Location.cs",
               "RelativeToolTip": "Location.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAgwD8AAAABAAAA",
+              "ViewState": "AQIAADkAAAAAAAAAAAAUwEcAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-22T08:51:13.456Z",
               "EditorCaption": ""
