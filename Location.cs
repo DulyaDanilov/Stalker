@@ -1,6 +1,8 @@
 ﻿using ConsoleApp1;
 using ConsoleApp1.Factories;
 using System;
+using System.Runtime.Remoting.Messaging;
+using System.Text;
 using Training;
 
 public class Location
@@ -21,6 +23,7 @@ public class Location
     private BloodsuckerFactory _bloodsuckerFactory = new BloodsuckerFactory();
     private CrateFactory _crateFactory = new CrateFactory();
 
+    private StringBuilder _sb = new StringBuilder();
 
     public Location(string name)
     {
@@ -34,29 +37,128 @@ public class Location
         Mutants[2] = _fleshFactory.Get();
         Mutants[3] = _boarFactory.Get();
         Mutants[4] = _bloodsuckerFactory.Get();
-        
 
-        Console.WriteLine($"Вы на локации {name}");
-        Console.WriteLine(" ");
 
-        Console.WriteLine($"На {name}е находятся сталкеры:");
-        
-        
+        Console.WriteLine($"Вы на локации {Name}");
+        Console.WriteLine();
+
+        Console.WriteLine($"На {Name}е находятся сталкеры:");
+
+
         foreach (Stalker stalker in Stalkers)
             Console.WriteLine($"{stalker.Name}");
 
         Console.WriteLine(" ");
 
-        Console.WriteLine($"На {name}е находятся мутанты:");
-        
-        foreach (AbstractMutant mutant in Mutants)
-            Console.WriteLine($"{mutant.Name}");
-       
-        Console.WriteLine(" ");
+        Console.WriteLine($"На {Name}е находятся мутанты:");
 
-        Console.WriteLine($"На {name}e валяются {Crates.Length} коробок:");
+        foreach (AbstractMutant mutant in Mutants)
+            Console.WriteLine(mutant.Name);
+
+        Console.WriteLine(" ");
+        DisplayCrates();
+
+        Console.WriteLine($"На {Name}e валяются {Crates.Length} коробок:");
         Console.WriteLine("");
+        Console.WriteLine($"Вы - {Stalkers[0].Name}, чего бы вы хотели такого сделать?");
+        Console.WriteLine($"Доступные действия:" + "Атаковать," + "Играть на гитаре");
+
+        string action = Console.ReadLine();
+        
+        HandleAction(action);
+        
+
+        
+        Console.WriteLine($"Доступные таргеты:" +
+            $"Сталкер," + " Мутант," + " Ящик");
+        string target = Console.ReadLine();
+        
+        ChoiceTarget(target);
+
     }
+    private void HandleAction(string action)
+    {
+        if(action == "Атаковать")
+        {
+            Console.WriteLine("Кого вы хотите атаковать?");
+        }
+        if (action == "Играть на гитаре")
+        {
+            
+            Stalkers[0].PlayGuitar();
+            
+            
+        }
+        else
+        {
+            Console.WriteLine("Не может сыграть");
+        }
+       
+        
+    }
+    
+    private void ChoiceTarget(string target)
+    {
+        if (target == "Сталкер")
+        {
+            //кого??
+            //если сталкеров - вывести сталкеров итд
+
+            Console.WriteLine("Какого Сталкера вы хотите атаковать?");
+            for (int i = 0; i < Stalkers.Length; i++)
+            {
+                Stalker stalker = Stalkers[i];
+                Console.WriteLine($"{i}. {stalker.Name}");
+            }
+            string indexStr = Console.ReadLine(); //можем считать только текст
+            int index = Convert.ToInt32(indexStr); //преобразовать в инт
+
+            Stalkers[0].Attack(Stalkers[index], Stalkers[index]);
+        }
+        if (target == "Мутант")
+        {
+            Console.WriteLine("Какого мутанта вы хотите атаковать");
+            for (int i = 0;i < Mutants.Length; i++)
+            {
+                AbstractMutant abstractMutant = Mutants[i];
+                Console.WriteLine($"{i}. {abstractMutant.Name}");
+            }
+            string indexStr = Console.ReadLine();
+            int index = Convert.ToInt32(indexStr);
+
+            Stalkers[0].Attack(Mutants[index], Mutants[index]);
+        }
+        if (target == "Коробка")
+        {
+            Console.WriteLine("Какую коробку вы хотите атаковать");
+            for(int i = 0;i < Crates.Length; i++)
+            {
+                Crate crate = Crates[i];
+                Console.WriteLine($"{i}. {crate.Name}");
+            }
+            string indexStr = Console.ReadLine();
+            int index = Convert.ToInt32(indexStr);
+
+            Stalkers[0].Attack(Crates[index], Crates[index]); 
+        }
+        else
+        {
+            Console.WriteLine("Неизвестная команда!");
+        }
+    }
+
+    private void DisplayCrates()
+    {
+        _sb.Append("На "); //добавление текста
+        _sb.Append(Name);
+        _sb.Append("e валяются ");
+        _sb.Append(Crates.Length);
+        _sb.Append(" коробок.");
+
+        Console.WriteLine(_sb.ToString()); //выводим содержимое Stringbuilder
+        _sb.Clear(); //очистка
+    }
+
     public void StartDay()
     {
         RandomStalkerAttackRandomMutant();
@@ -102,10 +204,7 @@ public class Location
         Crate korobka = GetRandomKorobka();
         GetRandomStalker().Attack(korobka, korobka);
     }
-
     private AbstractMutant GetRandomMutant() => Mutants[_random.Next(0, Mutants.Length - 1)];
-
-    private Stalker GetRandomStalker() => Stalkers[_random.Next(0, Stalkers.Length - 1)];
-
+    private Stalker GetRandomStalker() => Stalkers[_random.Next(1, Stalkers.Length - 1)];
     private Crate GetRandomKorobka() => Crates[_random.Next(0, Crates.Length - 1)];
 }
